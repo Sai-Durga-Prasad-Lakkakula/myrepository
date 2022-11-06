@@ -10,7 +10,7 @@ public class ArrayListEx {
     public static void main(String[] args) {
         ArrayList<String> name = new ArrayList<>();
 
-        name.add("sai");
+        //name.add("sai");
         name.add("ravi");
         name.add("satya");
         name.add(null);
