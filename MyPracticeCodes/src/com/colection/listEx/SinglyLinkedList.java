@@ -20,7 +20,7 @@ public class SinglyLinkedList {
     public void addNode(int data) {
         //Create a new node
         Node newNode = new Node(data);
-        
+
         if(head == null) {
             //If list is empty, both head and tail will point to new node
             head = newNode;
