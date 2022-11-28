@@ -65,6 +65,9 @@ public class TreeSetEx2 {
             postorder(root.right);
             System.out.print(root.data+" ");
         }
+
+        public static <BinaryTreeNode> void display_inorder(BinaryTreeNode root) {
+        }
     }
     public static void main(String [] args)
     {
